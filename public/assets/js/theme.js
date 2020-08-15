@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
 	'use strict';
 
 	var nav_offset_top = $('header').height() + 50;
@@ -9,7 +9,7 @@
 	//* Navbar Fixed
 	function navbarFixed() {
 		if ($('.header_area').length) {
-			$(window).scroll(function() {
+			$(window).scroll(function () {
 				var scroll = $(window).scrollTop();
 				if (scroll >= nav_offset_top) {
 					$('.header_area').addClass('navbar_fixed');
@@ -23,7 +23,7 @@
 
 	/*----------------------------------------------------*/
 	/*  MailChimp Slider
-    /*----------------------------------------------------*/
+		/*----------------------------------------------------*/
 	function mailChimp() {
 		$('#mc_embed_signup').find('form').ajaxChimp();
 	}
@@ -31,10 +31,10 @@
 
 	$('select').niceSelect();
 	/* ---------------------------------------------
-            Isotope js Starts
-         --------------------------------------------- */
-	$(window).on('load', function() {
-		$('.portfolio-filter ul li').on('click', function() {
+						Isotope js Starts
+				 --------------------------------------------- */
+	$(window).on('load', function () {
+		$('.portfolio-filter ul li').on('click', function () {
 			$('.portfolio-filter ul li').removeClass('active');
 			$(this).addClass('active');
 
@@ -72,7 +72,7 @@
 
 	/*----------------------------------------------------*/
 	/*  Testimonials Slider
-    /*----------------------------------------------------*/
+		/*----------------------------------------------------*/
 	function testimonials_slider() {
 		if ($('.testi_slider').length) {
 			$('.testi_slider').owlCarousel({
@@ -98,7 +98,7 @@
 
 	/*----------------------------------------------------*/
 	/*  Google map js
-    /*----------------------------------------------------*/
+		/*----------------------------------------------------*/
 
 	if ($('#mapBox').length) {
 		var $lat = $('#mapBox').data('lat');

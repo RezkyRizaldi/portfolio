@@ -20,7 +20,9 @@
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner {
-		padding: 100px 0px;
+		padding: 0;
+		position: relative;
+		bottom: 150px;
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
@@ -71,7 +73,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #fff;
+		background: #000;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -98,15 +100,15 @@
 		display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
-		color: #fff;
+		color: #000;
 	}
 	.header_area .navbar .search {
 		margin-left: 0px;
 	}
 	.header_area .navbar-collapse {
 		max-height: 340px;
-		overflow-y: scroll;
 	}
+	
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0px 15px;
 	}

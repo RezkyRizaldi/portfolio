@@ -32,41 +32,45 @@
 
   {{-- Loader --}}
   <div class="loader-wrapper">
-    <img class="loader" src="assets/img/favicon.png" alt="Loader">
+    <img class="loader" src="/assets/img/favicon.png" alt="Loader">
   </div>
   {{-- End Loader --}}
 
   {{-- Header Section --}}
   <header class="header_area">
     <div class="main_menu">
-      <nav class="navbar navbar-expand-lg bg-transparent navbar-light" id="mainNav">
+      <nav class="navbar navbar-expand-lg bg-transparent navbar-dark" id="mainNav">
 
         {{-- Header Container --}}
         <div class="container">
-          <div class="navbar-collapse collapse w-75 order-1 order-md-0 dual-collapse2">
+          <button class="navbar-toggler pl-3 p-lg-0 p-md-0 p-sm-0" type="button" data-toggle="collapse"
+            data-target=".dual-collapse2">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div
+            class="navbar-collapse pl-3 p-lg-0 p-md-0 p-sm-0 collapse w-75 order-1 order-lg-0 order-md-1 order-sm-1 dual-collapse2">
             <label class="form-check-label mr-3" for="">Translate</label>
             <div class="mr-auto" id="google_translate_element"></div>
           </div>
-          <div class="mx-auto order-0">
-            <a class="navbar-brand logo_h mx-auto text-uppercase gradient-color js-scroll" title="Muhamad Rezky Rizaldi"
-              href="#page-top"><img src="/assets/img/brand.jpeg" alt="Brand" class="rounded-circle mr-2" width="40"
-                height="40">
+          <div class="order-0">
+            <a class="navbar-brand mx-auto order-0 order-md-2 text-uppercase gradient-color js-scroll"
+              title="Muhamad Rezky Rizaldi" href="#page-top" style="cursor: default"><img src="/assets/img/brand.jpeg"
+                alt="Brand" class="rounded-circle mr-2" width="40" height="40">
               Rezky</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
           </div>
-          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <div class="navbar-collapse collapse pl-3 p-lg-0 p-md-0 p-sm-0 w-100 order-4 order-md-4 dual-collapse2">
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item active"><a class="nav-link js-scroll active" title="Home" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll" title="Profile" href="#profile">Profile</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll" title="Skill" href="#skill">Skill</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll" title="Profile" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item"><a class="nav-link js-scroll" title="Skill" href="#skill">Skill</a>
+              </li>
               <li class="nav-item"><a class="nav-link js-scroll" title="Portfolio" href="#portfolio">Portfolio</a>
               </li>
-              <li class="nav-item"><a class="nav-link js-scroll" title="Contact" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll" title="Contact" href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -97,7 +101,7 @@
           </div>
           <div class="col-lg-5">
             <div class="home_right_img">
-              <img class="" src="assets/img/banner/home-right.png" alt="Banner 1">
+              <img class="" src="/assets/img/banner/home-right.png" alt="Banner 1">
             </div>
           </div>
         </div>
@@ -116,7 +120,7 @@
       <div class="row justify-content-start align-items-center">
         <div class="col-lg-5">
           <div class="about_img">
-            <img class="" src="assets/img/about-us.png" alt="Banner 2">
+            <img class="" src="/assets/img/about-us.png" alt="Banner 2">
           </div>
         </div>
 
@@ -597,7 +601,7 @@
   <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({
-        pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false
+        pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL, autoDisplay: true
       }, 'google_translate_element');
     }
   </script>
