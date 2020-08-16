@@ -138,6 +138,7 @@
 	============================================================================================ */
 	.home_banner_area {
 		margin-top: 0;
+		max-height: 300px;
 	}
 	.home_right_img {
 		display: none;
@@ -370,12 +371,19 @@
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
-		padding: 30px 15px;
-		margin-top: 0px;
-	}
-	.home_banner_area .banner_inner .banner_content h3 {
-		font-size: 24px;
-	}
+	    padding: 30px 15px;
+	    margin-top: 235px; }
+
+  	.home_banner_area .banner_inner .banner_content h3 {
+    	font-size: 18px; }
+
+	  .home_banner_area .banner_inner .banner_content h1 {
+	    font-size: 40px;
+	  }
+
+	  .home_banner_area .banner_inner .banner_content h5 {
+	    font-size: 18px;
+	  }
 	/* End Home Banner Area css
 	============================================================================================ */
 	.banner_area .banner_inner .banner_content h2 {
