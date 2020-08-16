@@ -316,9 +316,6 @@ button:focus {
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
-    .header_area.navbar_sticky .main_menu {
-      position: sticky;
-    }
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 70px; }
   @media (min-width: 992px) {
@@ -363,6 +360,9 @@ button:focus {
           max-width: 100%;
           height: auto; } }
       @media (max-width: 991px) {
+        .home-banner-area {
+          max-height: 300px;
+        }
         .home_banner_area .banner_inner .home_right_img {
           display: none; } }
     .home_banner_area .banner_inner .col-lg-7 {
@@ -2639,7 +2639,8 @@ h6 {
         color: #854fee; }
       @media (max-width: 767px) {
         .portfolio_area .filters ul li {
-          margin-right: 20px; } }
+          margin-right: 20px;
+          font-size: 0.7em; } }
 
 .portfolio_box {
   margin-bottom: 80px; }
@@ -2976,8 +2977,9 @@ h6 {
   .header_area .navbar .search {
     margin-left: 0px; }
 
-  .header_area .navbar-collapse {
+  /* .header_area .navbar-collapse {
     max-height: 340px;
+  } */
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     padding: 0px 15px; }
@@ -2991,13 +2993,11 @@ h6 {
     margin-top: 0px; }
 
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-    line-height: 40px;
-    color: #fff; }
+    }
 
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
     color: #fff; }
-
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
     color: #222; }
 
@@ -3282,9 +3282,9 @@ h6 {
       text-transform: uppercase; }
   .footer_area .footer_social {
     margin: 25px 0 50px;
-    width: 25%;
+    width: 100%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-around; }
       .footer_area .footer_social a svg {
         color: #788489;
         font-size: 3em;
