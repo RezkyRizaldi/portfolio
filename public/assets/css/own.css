@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 /* Loader */
 .loader-wrapper {
   width: 100%;
@@ -98,7 +102,9 @@ img.loader {
   font-size: 16px;
   right: 30px;
   bottom: 30px;
-  transition: background 0.5s;
+  -webkit-transition: background .5s;
+  -o-transition: background .5s;
+  transition: background .5s;
   z-index: 11;
 }
 
@@ -106,18 +112,12 @@ img.loader {
   color: #fff;
 }
 
+/* Responsive Breakpoints */
 @media screen and (min-width: 992px) {
   .header_area {
     top: 0px;
   }
 }
-
-/* @media screen and (max-width: 1200px) {
-  .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-    line-height: 10px;
-    color: #fff;
-  }
-} */
 
 @media screen and (max-width: 1199px) {
   .home_banner_area .banner_inner {

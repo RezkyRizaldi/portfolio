@@ -9,7 +9,7 @@
 }
 @media (max-width: 1300px) {
 }
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar .nav .nav-item {
@@ -23,6 +23,14 @@
 		padding: 0;
 		position: relative;
 		bottom: 150px;
+	}
+
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 250px;
+	}
+
+	.home_banner_area .banner_inner .home_left_img {
+		padding-top: 250px;
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
@@ -140,6 +148,11 @@
 		margin-top: 0;
 		max-height: 300px;
 	}
+
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 250px;
+	}
+
 	.home_right_img {
 		display: none;
 	}
@@ -147,8 +160,6 @@
 	/* Footer Area css
 	============================================================================================ */
 	.footer_area {
-		padding-top: 80px !important;
-		padding-bottom: 80px !important;
 		background-image: none !important;
 		background-color: #fcf8ff;
 	}
@@ -221,15 +232,15 @@
 }
 @media (max-width: 767px) {
 	.home_banner_area {
-		min-height: 300px;
+		max-height: 350px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 300px;
+		max-height: 350px;
 		padding-top: 200px;
 		padding-bottom: 50px;
 	}
 	.home_banner_area .banner_inner .banner_content {
-		margin-top: 0px;
+		margin-top: 200px;
 		.primary_btn {
 			display: none;
 		}
@@ -298,10 +309,10 @@
 		line-height: 38px;
 	}
 	.home_banner_area {
-		min-height: 450px;
+		max-height: 250px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 450px;
+		max-height: 250px;
 	}
 	.home_banner_area .banner_inner .banner_content img {
 		display: none;
@@ -372,7 +383,8 @@
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
 	    padding: 30px 15px;
-	    margin-top: 235px; }
+	    margin-top: 150px;
+	    transiion: .5s; }
 
   	.home_banner_area .banner_inner .banner_content h3 {
     	font-size: 18px; }

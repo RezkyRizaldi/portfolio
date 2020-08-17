@@ -3,15 +3,6 @@
   var nav = $('nav');
   var navHeight = nav.outerHeight();
 
-  // Preloader
-  // $(window).on('load', function () {
-  //   if ($('#preloader').length) {
-  //     $('#preloader').delay(100).fadeOut('slow', function () {
-  //       $(this).remove();
-  //     });
-  //   }
-  // });
-
   // Top Button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
