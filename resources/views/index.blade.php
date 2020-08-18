@@ -10,7 +10,7 @@
   <meta name="author" content="Muhamad Rezky Rizaldi" />
   {{-- <meta http-equiv="refresh" content="30" /> --}}
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <link rel="icon" href="/assets/img/favicon.png" type="x-icon" />
+  <link rel="icon" href="/favicon.ico" type="x-icon" />
   <title>Muhamad Rezky Rizaldi</title>
 
   {{-- Bootstrap CSS --}}
@@ -224,9 +224,9 @@
           <div class="col-lg-4 col-md-6 all finished">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/restoran.png" alt="Restoran" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/restoran.png" alt="Restoran" />
                 <div class="overlay"></div>
-                <a href="assets/img/restoran.png" class="img-gal">
+                <a href="/assets/img/portfolio/restoran.png" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -241,9 +241,9 @@
           <div class="col-lg-4 col-md-6 all finished latest">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/bimtek.jpeg" alt="Bimbingan Teknisi Mitra Manajemen Dearah" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/bimtek.jpeg" alt="Bimbingan Teknisi Mitra Manajemen Dearah" />
                 <div class="overlay"></div>
-                <a href="/assets/img/bimtek.jpeg" class="img-gal">
+                <a href="/assets/img/portfolio/bimtek.jpeg" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -258,9 +258,9 @@
           <div class="col-lg-4 col-md-6 all finished">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/e-mading.jpeg" alt="E-mading" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/e-mading.jpeg" alt="E-mading" />
                 <div class="overlay"></div>
-                <a href="/assets/img/e-mading.jpeg" class="img-gal">
+                <a href="/assets/img/portfolio/e-mading.jpeg" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -275,9 +275,9 @@
           <div class="col-lg-4 col-md-6 all following latest">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/harunozuka-and-comrade.png" alt="Prof. Harunozuka & Comrade" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/harunozuka-and-comrade.png" alt="Prof. Harunozuka & Comrade" />
                 <div class="overlay"></div>
-                <a href="/assets/img/harunozuka-and-comrade.png" class="img-gal">
+                <a href="/assets/img/portfolio/harunozuka-and-comrade.png" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -292,9 +292,9 @@
           <div class="col-lg-4 col-md-6 all following latest">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/vtuber-sub-indo.png" alt="Vtuber Sub Indo" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/vtuber-sub-indo.png" alt="Vtuber Sub Indo" />
                 <div class="overlay"></div>
-                <a href="/assets/img/vtuber-sub-indo.png" class="img-gal">
+                <a href="/assets/img/portfolio/vtuber-sub-indo.png" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -309,9 +309,9 @@
           <div class="col-lg-4 col-md-6 all finished">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" src="/assets/img/sistem-info-sekolah.png" alt="Sistem Penilaian Informasi Sekolah" />
+                <img class="img-fluid w-100" src="/assets/img/portfolio/sistem-info-sekolah.png" alt="Sistem Penilaian Informasi Sekolah" />
                 <div class="overlay"></div>
-                <a href="/assets/img/sistem-info-sekolah.png" class="img-gal">
+                <a href="/assets/img/portfolio/sistem-info-sekolah.png" class="img-gal">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
@@ -485,7 +485,7 @@
   <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({
-        pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: true
+        pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTCAL, autoDisplay: false
       }, 'google_translate_element');
     }
   </script>

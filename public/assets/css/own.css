@@ -23,6 +23,10 @@
 
 img.loader {
   filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
+  -moz-filter: invert(1);
+  -webkit-filter: invert(1);
   display: inline-block;
   width: 100px;
   height: 100px;
